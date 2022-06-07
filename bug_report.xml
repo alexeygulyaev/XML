@@ -1,1 +1,19 @@
-
+<?xml version="1.0"?>
+<bugreport>
+  <title>Description:</title>
+  <title>По факту неоплаченный товар, принимает статус как оплаченный</title>
+  <title>Preconditions:</title>
+  <title>1. Зайти на сайт "https://tritonshoes.ru/"</title>
+<title>Steps to reproduce:</title>
+<title>1.	Добавить товар в корзину
+2.	Перейти к оформлению заказа
+3.	Выполнить каждый этап оформления заказ
+4.	На странице оплаты из выпадающего списка “Тип оплаты” выбрать “Оплата заказа банковской картой“
+5.	Нажать “оформить”
+6.	Закрыть защищенную страницу оплаты, которая открылась
+7.	Зайти в “Мои заказы“</title>
+<title>Excepted result</title>
+<title>Заказ остался в статусе “Сформирован”</title>
+<title>Actual result:</title>
+<title>Заказ в статусе “Оплачен”</title>
+</bugreport>
